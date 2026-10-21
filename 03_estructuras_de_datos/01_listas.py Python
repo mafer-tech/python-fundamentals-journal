@@ -1,0 +1,16 @@
+# Agrupar datos en Listas (list)
+carrito = []  # creamos una lista vacía
+
+carrito.append("lavadora")  # Guardamos el dato con .append
+carrito.append("secadora")
+
+print(carrito)
+
+# EJERCICIO 5:
+carrito = []
+opcion = ""
+while opcion != "salir":
+    carrito.append(input("ingresa un producto "))
+    print("Tu producto ha sido registrado")
+    opcion = input("si deseas salir escribe salir, de lo contrario presiona enter para seguir registrando productos ")
+print("Los productos registrados son: ", carrito)
